@@ -1,0 +1,34 @@
+/*
+Proyecto: Mini-Logo
+Integrantes: 
+	-Ibarra Soto Alejandro
+	-Mendoza Sánchez Marco Antonio
+Materia: 
+	Compiladores
+Grupo:
+	3CM7
+Fecha:
+	Junio 2020
+*/
+
+Los archivos ya tienen todo lo necesario para la ejecución mediante la línea:
+
+		java Parser
+
+La carpete Archivos del programa contiene el código fuente y todo lo necesario para ejecutar el código
+La carpeta Manuales tiene el manual de usuario y el manual técnico
+La carpeta Pruebas tiene diferentes capturas realizadas y el código de un demo.txt cuyo contenido puede
+ser ejecutado en el proyecto
+
+
+
+
+
+Si se realizan cambios, la compilación incluye desde la gramática:
+byaccj -J logo.y
+
+La compilación del Parser
+javac Parser.java
+
+Y la ejecución
+java Parser
